@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Welcome to SSG" />
+<meta property="og:description" content="What would you do with double your revenue?" />
+<meta property="og:image" content="https://ross-sylvester.github.io/ssg/mini-logo.png" />
+<meta property="og:url" content="https://scientificsellinggroup.com" />
+<title>Welcome to SSG</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%231A237E' /%3E%3C/svg%3E">
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #1A237E; /* Deep blue background */
+    color: white;
+    overflow: hidden; /* Hide overflow to disable scroll */
+  }
+  .header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1A237E;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  .header {
+    top: 0;
+  }
+  .logo {
+  max-width: 200px; /* or whatever maximum width you prefer */
+  height: auto; /* to maintain aspect ratio */
+  display: block; /* to ensure it takes up only the necessary space */
+  }
+  .footer {
+    bottom: 0;
+    justify-content: center; /* Center align footer content */
+    font-size: 0.9em; /* Adjust to match your footer size */
+  }
+  .content {
+    position: absolute;
+    top: 20px; /* Adjust to match header height */
+    bottom: 60px; /* Adjust to match footer height */
+    left: 24px;
+    right: 24px;
+    text-align: left; /* Align text to the left for main content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+  }
+  .headline {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  .subheadline {
+    font-size: 1.5em;
+    margin-bottom: 34px;
+  }
+  .button {
+  padding: 10px 20px; /* Top and bottom padding of 10px; left and right padding of 20px */
+  background-color: white;
+  color: #1A237E;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  display: inline-block; /* Ensures that the element is only as wide as its content plus padding */
+  text-align: center; /* Centers the text horizontally within the button */
+  width: 120px;
+  }
+  .button:hover {
+    background-color: #ddd;
+  }
+  /* Tablet styles */
+  @media (max-width: 768px) {
+    .headline {
+      font-size: 1.5em;
+    }
+    .subheadline {
+      font-size: 1.2em;
+    }
+  }
+  /* Mobile styles */
+  @media (max-width: 480px) {
+    .headline {
+      font-size: 1.2em;
+    }
+    .subheadline {
+      font-size: 1em;
+    }
+    .button {
+      padding: 8px 16px;
+    }
+    .header, .footer {
+      padding: 10px;
+    }
+    .content {
+      top: 50px; /* Adjust for mobile header/footer */
+      bottom: 50px;
+      left: 10px;
+      right: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+    <div class="header">
+        <img src="ssg-logo.png" alt="SCIENTIFIC SELLING GROUP" class="logo" />
+        <a href="https://calendly.com/dano-ssg-pros/30min?back=1&month=2025-01" target="_blank" class="button">Book Call</a>
+      </div>
+  <div class="content">
+    <div class="headline">Never struggle with sales again.</div>
+    <div class="subheadline">
+      We bring an expert team of sellers to your organization so you can build product and serve customers.
+    </div>
+    <a href="https://calendly.com/dano-ssg-pros/30min?back=1&month=2025-01" target="_blank" class="button">Book Call</a>
+  </div>
+  <div class="footer">
+    Headquartered in Cary, North Carolina
+  </div>
+</body>
+</html>
